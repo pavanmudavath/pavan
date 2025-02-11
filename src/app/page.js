@@ -2,6 +2,7 @@
 import BlogCard from '@/components/BlogCard';
 import ProjectCard from '@/components/ProjectCard';
 
+
 export default function Home() {
   const featuredProjects = [
     {
@@ -37,8 +38,8 @@ export default function Home() {
 
   const blogPosts = [
     {
-      title: "Getting Started with Next.js",
-      description: "Learn how to build modern web applications with Next.js",
+      title: "Building a CRUD Application with Node.js, Express, and MongoDB: A Step-by-Step Guide",
+      description: "Learn how to build CRUD Operations in NodeJS , Express , and  MongoDB",
       date: "Feb 8, 2025",
       readTime: "5",
       link: "/blog/blog1"
@@ -61,9 +62,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
+    <div className="max-w-5xl mx-auto px-4 py-12">
       {/* Hero Section */}
       <section className="text-center py-20">
+        {/* <Image width={120}  height={100}  src={ProfilePic} alt="ProfileImage"/> */}
         <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
         <p className="mt-4 text-xl text-gray-300">
           I build amazing web experiences
